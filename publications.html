@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications | Chen Lab</title>
+  <meta name="description" content="Publications from the Chen Lab at Westlake University.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/lab-data.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Chen Lab home">
+      <img src="assets/img/logo-nanosynthesis.jpg" alt="The Nanosynthesis Consortium">
+      <span><strong>Chen Lab</strong><small>Westlake University</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#research">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Publications</p>
+      <h1>Selected and complete publication list</h1>
+      <p>The list is rebuilt from the existing publication page and keeps the current numbering through 2026.</p>
+    </section>
+
+    <section class="section publication-browser">
+      <div class="publication-tools" aria-label="Publication filters">
+        <label class="search-field">
+          <span>Search</span>
+          <input type="search" id="publicationSearch" placeholder="Title, author, journal, year">
+        </label>
+        <div class="year-filters" id="yearFilters" aria-label="Filter by year"></div>
+      </div>
+      <p class="result-count" id="publicationCount"></p>
+      <div class="publication-list" id="publicationList" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>Chen Lab · The Nanosynthesis Consortium</strong><span>School of Science, Westlake University</span></div>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="people.html">People</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </footer>
+</body>
+</html>
